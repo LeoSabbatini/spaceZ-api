@@ -20,6 +20,7 @@ public class Planeta {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String nome;
+    private String descricao;
     private String imgUrl;
     private Long tamanho;
     private Integer temperatura;
