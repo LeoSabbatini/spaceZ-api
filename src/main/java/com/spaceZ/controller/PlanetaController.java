@@ -2,15 +2,13 @@ package com.spaceZ.controller;
 
 import com.spaceZ.model.Planeta;
 import com.spaceZ.service.PlanetaService;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
 @RequestMapping
+@CrossOrigin(origins = "http://localhost:8081")
 public class PlanetaController {
     private final PlanetaService planetaService;
 

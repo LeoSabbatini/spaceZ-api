@@ -25,6 +25,7 @@ public class Planeta {
     private Long tamanho;
     private Integer temperatura;
     private Long duracaoAno;
+    private String cor;
 
 
 }
